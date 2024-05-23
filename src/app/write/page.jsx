@@ -99,8 +99,6 @@ const WritePage = () => {
             upload();
         }
     }, [file]);
-
-
     
     if (status === "loading") {
         return <div className={styles.loading}>Loading...</div>;
